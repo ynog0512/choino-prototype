@@ -18,7 +18,11 @@ export default function Home() {
       {stage === "seed" && (
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">トマトの種をまこう！</h1>
+<<<<<<< HEAD
           <img src="/tomato_stage2.png" alt="Seed" className="w-24 h-24 mx-auto mb-4" />
+=======
+          <img src="/tomato_stage2.png" alt="Seed" className="w-32 h-32 mx-auto mb-4" />
+>>>>>>> 4b3a230462824cc311b6f830903442ea328d4c6f
           <button onClick={handleGrow} className="bg-orange-400 text-white px-6 py-2 rounded-full">
             種をまく
           </button>
@@ -28,7 +32,11 @@ export default function Home() {
       {stage === "sprout" && (
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">発芽したよ！</h1>
+<<<<<<< HEAD
           <img src="/tomato_stage2.png" alt="Sprout" className="w-24 h-24 mx-auto mb-4" />
+=======
+          <img src="/tomato_stage2.png" alt="Sprout" className="w-32 h-32 mx-auto mb-4" />
+>>>>>>> 4b3a230462824cc311b6f830903442ea328d4c6f
           <button onClick={handleGrow} className="bg-orange-400 text-white px-6 py-2 rounded-full">
             お世話する
           </button>
@@ -38,7 +46,11 @@ export default function Home() {
       {stage === "leaf" && (
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">葉っぱが育った！</h1>
+<<<<<<< HEAD
           <img src="/tomato_stage2.png" alt="Leaf" className="w-24 h-24 mx-auto mb-4" />
+=======
+          <img src="/tomato_stage2.png" alt="Leaf" className="w-32 h-32 mx-auto mb-4" />
+>>>>>>> 4b3a230462824cc311b6f830903442ea328d4c6f
           <button onClick={handleGrow} className="bg-orange-400 text-white px-6 py-2 rounded-full">
             お世話する
           </button>
@@ -48,7 +60,11 @@ export default function Home() {
       {stage === "flower" && (
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">花が咲いた！</h1>
+<<<<<<< HEAD
           <img src="/tomato_stage2.png" alt="Flower" className="w-24 h-24 mx-auto mb-4" />
+=======
+          <img src="/tomato_stage2.png" alt="Flower" className="w-32 h-32 mx-auto mb-4" />
+>>>>>>> 4b3a230462824cc311b6f830903442ea328d4c6f
           <button onClick={handleGrow} className="bg-orange-400 text-white px-6 py-2 rounded-full">
             お世話する
           </button>
@@ -58,7 +74,11 @@ export default function Home() {
       {stage === "fruit" && (
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">実がなったよ！</h1>
+<<<<<<< HEAD
           <img src="/tomato_stage5.png" alt="Fruit" className="w-24 h-24 mx-auto mb-4" />
+=======
+          <img src="/tomato_stage5.png" alt="Fruit" className="w-32 h-32 mx-auto mb-4" />
+>>>>>>> 4b3a230462824cc311b6f830903442ea328d4c6f
           <button onClick={handleGrow} className="bg-orange-500 text-white px-6 py-2 rounded-full">
             収穫する
           </button>
@@ -68,7 +88,11 @@ export default function Home() {
       {stage === "harvest" && (
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">収穫おめでとう！</h1>
+<<<<<<< HEAD
           <img src="/nft_tomato.png" alt="Harvest" className="w-24 h-24 mx-auto mb-4" />
+=======
+          <img src="/nft_tomato.png" alt="Harvest" className="w-32 h-32 mx-auto mb-4" />
+>>>>>>> 4b3a230462824cc311b6f830903442ea328d4c6f
           <p className="text-lg">NFTとして記録されたよ！</p>
         </div>
       )}
